@@ -1,0 +1,169 @@
+/* IMPOSTAZIONI GENERALI */
+body {
+  width: 500px;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  padding: 20px;
+  background-image: url("./img/sfondo.png");
+  margin-inline: auto;
+}
+
+/* HEADER */
+
+header {
+  background: rgb(0, 160, 198);
+  background: linear-gradient(180deg, rgb(1, 157, 196) 0%, rgba(3, 109, 134, 1) 68%);
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+div img {
+  padding-top: 30px;
+}
+div p {
+  padding: auto;
+}
+.intro {
+  padding-bottom: 30px;
+}
+.intro ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+/* MAIN */
+main {
+  background-color: #f4f1f1;
+  padding: 2rem;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+span {
+  color: rgb(183, 178, 178);
+}
+section h2 {
+  text-align: center;
+  color: #1e1e1e;
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 1em;
+}
+/* ELEMENTI NEL MAIN - ARTICLE */
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+p,
+address,
+ul,
+ol {
+  margin-bottom: 1.5em;
+  padding-bottom: 1.5em;
+}
+ul,
+ol {
+  margin-left: 2em;
+  padding-bottom: 1.5em;
+}
+a {
+  color: #079ddd;
+  font-weight: bold;
+  padding-bottom: 1.5em;
+}
+strong {
+  color: #c723c4;
+  font-weight: bold;
+}
+code {
+  background-color: #e3e3e3;
+  border: 1px solid #a1a1a1;
+  border-radius: 5px;
+}
+iframe {
+  width: 100%;
+  height: auto;
+  margin-bottom: 2em;
+  border-radius: 20px;
+}
+
+/* TABELLE */
+table {
+  margin-bottom: 2em;
+}
+caption {
+  font-weight: bold;
+  font-style: italic;
+}
+thead tr {
+  background-color: #3f6bca;
+  color: #ffffff;
+}
+th,
+td {
+  padding: 12px 15px;
+  vertical-align: bottom;
+  text-align: center;
+}
+tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+tbody tr:last-of-type {
+  border-bottom: 2px solid #3f6bca;
+}
+
+/* FORM */
+input {
+  padding: 5px;
+  border: 0;
+  border-bottom: 1px dashed #333;
+}
+button {
+  padding: 4px 7px;
+  background-color: #3f6bca;
+  border: 0;
+  color: white;
+  font-weight: bold;
+}
+
+/* ELEMENTI NELL' ASIDE */
+aside h2 {
+  text-align: center;
+  color: #333;
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 1em;
+}
+aside div {
+  background-color: #e3e3e3;
+  border: 1px solid #c3c3c3;
+  margin-bottom: 1em;
+  padding: 1em;
+}
+aside div p:last-child {
+  margin-bottom: 0;
+  font-size: 0.8em;
+  text-align: right;
+}
+
+/* FOOTER */
+footer {
+  background: rgb(53, 53, 53);
+  background: linear-gradient(0deg, rgba(53, 53, 53, 1) 0%, rgba(5, 85, 103, 1) 68%);
+  box-shadow: 0 3px 3px #444;
+  color: #f0f0f0;
+  padding: 1em;
+  text-align: center;
+  font-size: 1.2rem;
+}
+footer a {
+  color: fuchsia;
+}
